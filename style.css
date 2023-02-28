@@ -1,0 +1,122 @@
+body {
+    height: 95vh;
+    width: 100svw;
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.main-container {
+    background-color: black;
+    color: white;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 45px 45px 45px;
+    font-family: 'Urbanist', 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 25px;
+    border-radius: 50px;
+    box-shadow: 11px 10px 5px 2px rgba(0,0,0,0.75);
+}
+
+.title {
+    font-family: 'Staatliches', 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 3px;
+    align-self: center;
+}
+
+.bill-tip-input {
+    border: solid;
+    display: flex;
+    border-radius: 50px;
+    padding: 5px 0 5px 15px;
+    background-color: rgb(36, 36, 36);
+}
+
+.bill-tip-placeholder {
+    width: 150px;
+    margin-left: 10px;
+    background-color: rgb(36, 36, 36);
+    border: none;
+    font-family: 'Urbanist', 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: white;
+    outline: none;
+}
+
+.bottom {
+    display: flex;
+}
+
+.people-counter-div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+.less-more-btn {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(36, 36, 36);
+    border: solid 2px white;
+    color: white;
+    font-family: 'Urbanist', 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    padding-bottom: 4px;
+}
+
+.counter-number {
+    margin: 0 15px 0 15px;
+}
+
+.per-person-div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: black;
+        background-image: none;
+        height: 100%;
+        margin: 0;
+
+    }
+
+    .main-container {
+        width: 100vw;
+        box-shadow: none;
+        height: fit-content;
+        border-radius: 0;
+    }
+
+    .bottom {
+        flex-direction: column;
+    }
+
+    .people-counter-div,
+    .per-person-div {
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
