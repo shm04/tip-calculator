@@ -16,26 +16,27 @@
         <p>Bill total</p>
         <div class="bill-tip-input">
             <span>$</span>
-            <input class="bill-tip-placeholder" type="text" placeholder="0.00">
+            <input id="bill-input" class="bill-tip-placeholder" type="text" placeholder="0.00">
         </div>
         <p>Tip</p>
         <div class="bill-tip-input">
             <span>%</span>
-            <input class="bill-tip-placeholder" type="text" placeholder="0.00">
+            <input id="tip-input" class="bill-tip-placeholder" type="text" placeholder="0.00">
         </div>
         <section class="bottom">
             <div class="people-counter-div">
                 <p>People</p>
                 <div class="counter">
-                    <button class="less-more-btn">-</button>
-                    <span class="counter-number">1</span>
-                    <button class="less-more-btn">+</button>
+                    <button id="decrease-btn" class="less-more-btn">-</button>
+                    <span id="number-of-people" class="counter-number">1</span>
+                    <button id="increase-btn" class="less-more-btn">+</button>
                 </div>
             </div>
             <div class="per-person-div">
                 <p>Total per person</p>
-                <div>
-                    <span>$0.00</span>
+                <div class="total-div">
+                    <p class="dollar-sign">$</p>
+                    <span id="total-per-person">0.00</span>
                 </div>
             </div>
         </section>
