@@ -91,6 +91,15 @@ body {
     align-items: flex-end;
 }
 
+.total-div {
+    display: flex;
+    align-items: center;
+}
+
+.dollar-sign {
+    margin-right: 15px;
+}
+
 @media (max-width: 780px) {
     body {
         background-color: black;
