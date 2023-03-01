@@ -38,11 +38,7 @@
     <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a></li>
   </ul>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **You can calculate your total bill**
 - **You can choose your own tip percentage**
@@ -84,8 +80,6 @@ You don´t need to install this project
 ### Usage
 
 To run the project, execute the following command:
-
-Example command:
 
 ```
   code tip-calculator
@@ -139,6 +133,6 @@ I would like to thank to Rafeh Qazi and https://www.cleverprogrammer.com/ to enc
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](/LICENSE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
